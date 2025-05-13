@@ -10,6 +10,7 @@ export default function Home() {
       <ThemeSelector />
 
       <div className="flex flex-col items-center justify-center gap-1 mt-8">
+        <h3 className=" font-medium text-primary/90 font-['Space_Mono']">M.Ahmadjon</h3>
         <h1 className="text-3xl font-medium text-primary/90 font-['Space_Mono']">(My history)</h1>
         <DigitalClock />
       </div>
