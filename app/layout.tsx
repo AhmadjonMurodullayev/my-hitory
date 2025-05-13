@@ -3,9 +3,11 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "satori",
-  description: "Monochromatic focus environment with Japanese aesthetics.",
-  generator: "v0.dev",
+  title: "My History",
+  description: "A personal history tracker with a focus on productivity.",
+  generator: "Next.js",
+  applicationName: "My History",
+  
 }
 
 export default function RootLayout({
